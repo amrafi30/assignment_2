@@ -1,0 +1,133 @@
+body{
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    
+}
+.coral-color{
+    color: coral;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 80px;
+    
+}
+.top-head{
+    padding-left: 10%;
+    font-weight: 700;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 8%;
+    text-align: justify;
+    
+}
+.half-width img{
+    width: 80%;
+    top: -10px;
+}
+.btn{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+}
+.collection-area{
+    margin-left: 9%;
+}
+.collection-area h1{
+    text-align: center;
+}
+.product-item{
+    width: 320px;
+    margin: 1%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 1%;
+    text-align: justify;
+}
+.product-item img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+ .fa-star{
+ color: gold;
+}
+.fa-star-half-alt{
+    color: gold;
+}
+.more-btn{
+    text-decoration: none;
+    color: crimson;
+    font-weight: 700;
+    padding-left: 80%;
+}
+.service-area{
+    margin-left: 9%;
+}
+    
+.service-area h1{
+    text-align: center;
+    margin-left: -11%;
+
+}
+.service-item{
+    width: 320px;
+    margin: 1%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 1%;
+    color: white;
+    text-align: justify;
+    background-color: Teal;
+}
+.service-item h2{
+    text-align: center;
+}
+footer{
+    height: 200px;
+    background-color: black;
+}
+footer h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+
+    
+}
+footer p{
+    text-align: center;
+    color: white;
+
+}
+.fab{
+    background-color: white;
+    font-size: 30px;
+  
+}
+
+.social-icon{
+    display: flex;
+    justify-content:center;
+
+
+    
+
+
+}
+@media only screen and (max-width:668px) {
+    .collectio-area{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
